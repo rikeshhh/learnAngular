@@ -7,7 +7,11 @@ import { NavBarComponent } from './Navbar/navbar.component';
   standalone: true,
   imports: [RouterOutlet, NavBarComponent],
   // templateUrl: './app.component.html',
-  template: '<h1>Hello world</h1> <p>My first Angular app</p>',
+  template: `
+    <h1>Hello world</h1>
+    <p>My first Angular app</p>
+    <button>Click me</button>
+  `,
   // styleUrl: './app.component.css',
 })
 export class AppComponent {
