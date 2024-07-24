@@ -12,7 +12,10 @@ import { NavBarComponent } from './Navbar/navbar.component';
     <p>My first Angular app</p>
     <button>Click me</button>
   `,
-  styles: 'h1{color:red}',
+  styles: `h1{color:red}
+  p{color:blue}
+  button{color:green}
+  `,
   // styleUrl: './app.component.css',
 })
 export class AppComponent {
