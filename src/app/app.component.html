@@ -1,2 +1,8 @@
-<h1>hell world in angular</h1>
-<app-navbar></app-navbar>
+<h1>{{ title }}</h1>
+<p>{{ 1 + 1 }}</p>
+<img src="{{ imgUrl }}" alt="" />
+<!-- below wont work because in string interpolation everthing inside it will be converted into string -->
+<button disabled="{{ isDisabled }}">Disable Using string interpolation</button>
+<!-- below data binding will work because it wont convert the variable into string -->
+<button [disabled]="isDisabled">Disable using property binding</button>
+<style></style>
