@@ -5,10 +5,10 @@ import { NavBarComponent } from './Navbar/navbar.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavBarComponent],
+  imports: [RouterOutlet, NavBarComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'my-first-angular-app';
+title: string = 'Angular 12';
+
 }
